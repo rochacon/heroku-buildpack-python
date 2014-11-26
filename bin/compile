@@ -169,8 +169,7 @@ source $BIN_DIR/steps/cryptography
 source $BIN_DIR/steps/pip-install
 
 # Django collectstatic support.
-source $BIN_DIR/steps/collectstatic
-
+sub-env $BIN_DIR/steps/collectstatic
 
 # ### Finalize
 #
